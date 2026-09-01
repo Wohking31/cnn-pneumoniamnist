@@ -18,7 +18,7 @@ data/raw/
 data
 
 # Heavy model artifacts & logs
-*.h5
+# *.h5
 *.keras
 *.pt
 *.pth
