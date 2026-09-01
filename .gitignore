@@ -30,4 +30,4 @@ logs/
 .DS_Store
 .vscode/
 .idea/
-confusion_matrix
+confusion_matrix.png
