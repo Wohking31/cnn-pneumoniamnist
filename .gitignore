@@ -1,1 +1,33 @@
 pneumoniamnist.npz
+# Python bytecode & environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+.virtual_documents
+anaconda_projects
+pneumoniamnist
+
+# Data decouple rule (Never commit raw/processed dataset files)
+data/*.npy
+data/*.npz
+data/raw/
+data
+
+# Heavy model artifacts & logs
+*.h5
+*.keras
+*.pt
+*.pth
+*.ckpt
+logs/
+*.log
+
+# Operating system / Editor configs
+.DS_Store
+.vscode/
+.idea/
+confusion_matrix
